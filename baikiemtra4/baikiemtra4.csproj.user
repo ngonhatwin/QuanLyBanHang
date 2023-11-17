@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Customer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="editEmloyee.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="addEmloyee.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainEmloyee.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Product.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WestonManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Wetson.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Customer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="editEmloyee.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainEmloyee.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="addEmloyee.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Product.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WestonManager.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Wetson.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
